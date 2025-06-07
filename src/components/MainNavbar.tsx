@@ -6,10 +6,10 @@ const MainNavbar = () => (
     <Toolbar>
       <Box sx={{ flexGrow: 1, display: 'flex', gap: 3 }}>
         <Button component={Link} to="/" sx={{ color: 'white' }}>Home</Button>
-        <Button sx={{ color: 'white' }}>About Us</Button>
-        <Button sx={{ color: 'white' }}>Services</Button>
+        <Button component={Link} to="/aboutus" sx={{ color: 'white' }}>About Us</Button>
+        <Button component={Link} to="/services" sx={{ color: 'white' }}>Services</Button>
         <Button sx={{ color: 'white' }}>Buy Online</Button>
-        <Button sx={{ color: 'white' }}>Location</Button>
+        <Button component={Link} to="/location" sx={{ color: 'white' }}>Location</Button>
         <Button sx={{ color: 'white' }}>News & Advisories</Button>
         <Button sx={{ color: 'white' }}>Careers</Button>
         <Button sx={{ color: 'white' }}>Contact Us</Button>

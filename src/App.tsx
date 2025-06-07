@@ -12,6 +12,10 @@ import EmployerLogin from './pages/EmployerLogin';
 import MainNavbar from './components/MainNavbar';
 import CarouselSection from './components/CarouselSection';
 import Home from './pages/HomePage';
+import AboutUs from './pages/AboutUs';
+import ServiceDetail from './pages/ServiceDetail';
+import LocationNew from './pages/LocationNew';
+
 
 
 function App() {
@@ -35,6 +39,10 @@ function App() {
         <Route path="/licensing" element={<Licensing />} />
         <Route path="/ess-login" element={<ESSLogin />} />
         <Route path="/employer-login" element={<EmployerLogin />} />
+        <Route path="/aboutus" element={<AboutUs />} />
+         <Route path="/services" element={<ServiceDetail />} />
+        <Route path="/location" element={<LocationNew/>}/>
+
       </Routes>
     </Router>
   );

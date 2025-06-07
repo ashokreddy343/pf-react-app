@@ -4,11 +4,8 @@ import {
   Typography,
   Box,
   Paper,
-  Divider,
-  Grid,
-  Card,
-  CardContent,
-} from '@mui/material';
+  Divider
+ } from '@mui/material';
 
 const AboutUs: React.FC = () => {
   return (

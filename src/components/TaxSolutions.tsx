@@ -46,7 +46,7 @@ const TaxSolutionsFlex: React.FC = () => {
           align="center"
           sx={{ color: '#00aaff', fontWeight: 600 }}
         >
-          SONIYA PF ESI CONSULTANTS
+          Talentriya Consultant Services
         </Typography>
         <Typography
           variant="h4"

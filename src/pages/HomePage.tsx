@@ -38,7 +38,7 @@ const Home = () => {
               },
             }}
           >
-            Welcome to <span>SONIYA PF ESI CONSULTANTS</span>
+            Welcome to <span>Talentriya Consultant Services</span>
           </Typography>
         </Container>
       </Box>
